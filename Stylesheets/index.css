@@ -1,0 +1,395 @@
+*{
+    /* border: 1px red solid; */
+    /* padding: 0;
+    margin: 0; */
+    /* color: white;
+    font-family: Poppins; */
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.landing-section {
+    background:rgba(80, 81, 82, 0.9) url("../Images/coffee-back.jpg");
+    background-blend-mode: darken;
+}
+
+nav {
+    /* display: flex; */
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul-list {
+    /* padding: 0 2rem; */
+}
+
+.ul-list img{
+    width: 10rem;
+}
+
+.motto-heading{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: none; 
+}
+
+.takeout-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.takeout-tag {
+    background: rgb(122, 120, 120);
+    /* background: transparent; */
+    color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 5rem;
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.dots {
+    padding: 0.5rem;
+    background: grey;
+    border-radius: 50%;
+    margin: 2rem 0.5rem;
+}
+
+.light-dot {
+    background: rgb(209, 207, 207);
+}
+
+.our-history-section{
+    background: url("../Images/wall-back.jpg");
+    display: flex;
+}
+
+.history-div{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 5rem;
+    padding-bottom: 0;
+    font-weight: bold;
+    font-family: Poppins;
+    font-size: 0.7rem;
+}
+
+.history-info {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.history-img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.our-history-block {
+    width: 20%;
+    background: black;
+    color: white;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestsellers{
+    padding: 5rem 0;
+    /* padding-bottom: 2rem; */
+    background: url("../Images/wall-back.jpg");
+}
+
+.bestseller-cups {
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bestseller-imgs-div {
+    position: relative;
+}
+
+.bestseller-imgs {
+    border-radius: 1rem;
+    width: 20rem;
+    height: 18rem;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 2rem;
+}
+
+.disp-para {
+    /* opacity: 0; */
+    color: white;
+    font-family: Poppins;
+    font-size: 2rem;
+    transition: 0.3s;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.our-coff {
+    top: 50%;
+}
+
+.bestseller-imgs:hover .disp-para{
+    opacity: 1;
+}
+
+.offer-heading {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+.color-carousel{
+    display: flex;
+    overflow: visible;
+}
+
+.colors{
+    width: 25rem;
+    height: 15rem;
+    margin: 3rem;
+    border-radius: 1rem;
+}
+
+.red{
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
+
+.magic-coffee {
+    display: flex;
+}
+
+.coffee-pictures {
+    width: 50%;
+}
+
+.read-more-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.read-btn {
+    font-size: 1.3rem;
+    padding: 1rem 3rem;
+    background: black;
+    color: white;
+    font-family: Poppins;
+    border-radius: 0.8rem;
+    border: none;
+}
+
+.about-us {
+    /* background: rgb(250, 247, 243); */
+
+}
+
+.abt-us-heading {
+    font-size: 3rem;
+    color: black;
+    font-family: Poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abt-us-desc{
+    display: flex;
+    padding: 2rem;
+}
+
+.abt-img {
+    width: 30%;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.abt-us-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abt-us-desc p{
+    font-size: 1.3rem;
+    font-family: Poppins;
+    width: 85%;
+    padding-left: 2rem;
+    text-align: center;
+}
+
+.testimonial-div{
+    display: flex;
+    align-items: center;
+}
+
+.div-content img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.left-arrow {
+    width: 15%;
+    text-align: right;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.rigth-arrow {
+    width: 15%;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.div-content {
+    width: 70%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.para-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+.testimonial-para {
+    font-family: Poppins;
+    font-size: 1.2rem;
+    width: 80%;
+}
+
+/* |||||||||||||||||||||| Footer Section ||||||||||||||||||||||||||| */
+
+.footer-section {
+    background:rgba(80, 81, 82, 0.9) url("../Images/coffee-footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: white;
+    font-family: Poppins;
+}
+
+.services ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.coffee-logo{
+    width: 25%;
+    padding-top: 4rem;
+}
+
+.services {
+    width: 25%;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 4rem;
+}
+
+.locations{
+    width: 25%;
+    padding-top: 4rem;
+}
+
+.social-icons {
+    width: 25%;
+    padding-top: 4rem;
+}
+
+.social-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coffee-footer-img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.coffee-footer-img-icons {
+    width: 5rem;
+    height: 5rem;
+}
+
+.social-icons p{
+    text-align: center;
+    font-size: 2rem;
+    padding: 0;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+.copyright {
+    padding: 2rem;
+    padding-bottom: 1rem;
+    background:rgba(80, 81, 82, 0.9) url("../Images/coffee-footer.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Poppins;
+}
+
+.social-media-icons {
+    display: flex;
+}
+
+.social-handles{
+    padding: 0 1rem;
+    color: white;
+}
